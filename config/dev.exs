@@ -2,9 +2,9 @@ import Config
 
 # Configure your database
 config :gist, Gist.Repo,
-  username: "backend_user",
-  password: "elixir_postgres",
-  hostname: "localhost",
+  username: "elixir_backend",
+  password: "elixir_key",
+  hostname: "bs_db",
   database: "gist_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
